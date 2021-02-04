@@ -1,0 +1,448 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:rgb(255,250,250);
+  }
+  
+  .logo {
+    cursor: pointer;
+   
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    /* font-family: 'Pathway Gothic One', sans-serif; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-size: 15px;
+    /* color: #edf0f1; */
+    color:black;
+    text-decoration: none;
+  }
+  .img_about{
+        float: right;
+        width: 600px;
+        height: 550px;
+        display: inline;
+        
+      
+    }
+    .invest{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        margin-top: 1%;
+    }
+    .about_description{
+        margin-top: 3%;
+        margin-left: 5%;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }    
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .btni{
+    border: 1px solid rgb(223, 219, 219);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    background-color: white;
+      
+  }
+  .img_header{
+      float: right;
+      margin-top: 5%;
+  }
+  .activity-title{
+        margin-top: 20%;
+        text-transform: capitalize;
+        color: rgb(41, 40, 40);
+        font-size: 35px;
+        margin-bottom: 2%;
+        text-align: center;
+        border-bottom-left-radius: 1px ;     
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .activity{
+    border-bottom: 2px solid rgb(216, 69, 16);
+    width: 90px;
+    margin-bottom: 3%;
+    opacity: 0.7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  
+  .desc{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 45px;
+    color: rgb(70, 68, 68);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+  }
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  .card1{
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2px solid rgb(182, 224, 182);
+    border-radius: 7px;
+    width: 25%;
+    height: 255px;
+    margin-bottom: 10%;
+    
+  }
+  .cards{
+      display: flex;
+      
+    }
+  .border1{
+    margin-top: 11.5%;
+    width: 29%;
+    float: left;
+    position: relative;
+    top: 1%;
+    left: 16%;
+    margin-bottom: 5%;
+    border: 2px solid rgb(34, 107, 34);
+    border-radius: 15%;
+  }
+  .card_footer{
+    margin-left: 3%;
+    margin-right: 1%;
+    border: 2px solid rgb(182, 224, 182);
+    border-radius: 7px;
+    width: 25%;
+    height: 255px;
+    border: none;
+    margin-bottom: 10%;
+  }
+  .arrow{
+    float:right;
+    color: white;
+    border:1px solid black;
+    background-color:black;
+    border-radius:50%;
+    margin-right:5%;
+    padding:12px;
+    /* position: -webkit-sticky; Safari */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5%;
+    cursor: pointer;
+    margin-left: 15%;
+    
+    
+  }
+
+  .cards_footer{
+    display: flex;
+    /* margin-left: 4%;
+    margin-right: 20%; */
+    
+  }
+  .card2_footer{
+    display: flex;
+    /* margin-left: 4%;
+    margin-right: 20%; */
+  }
+  .card_head_footer{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .img_card_footer{
+      width: 250px;
+      height: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .border2{
+    margin-top: 1%;
+    width: 29%;
+    margin-right: 21%;
+    float: right;
+    margin-bottom: 5%;
+    position: relative;
+    border-radius: 15%;
+    border: 2px solid rgb(34, 107, 34);
+  }
+ 
+  .card_head{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: rgb(70, 68, 68);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .img_card{
+    margin-top: 2%;
+    width: 200px;
+    height: 150px;
+    float: right;
+    padding-right: 1%;
+    padding-bottom: 4%;
+  }
+  .footer-title{
+    margin-top: 20%;
+    text-transform: capitalize;
+    color: rgb(41, 40, 40);
+    font-size: 35px;
+    margin-bottom: 1%;
+    text-align: center;
+    border-bottom-left-radius: 1px ;     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .about-title{
+    margin-top: 1%;
+    text-transform: capitalize;
+    color: rgb(41, 40, 40);
+    font-size: 35px;
+    margin-bottom: 1%;
+    text-align: center;
+    border-bottom-left-radius: 1px ;     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #search_icon{
+    
+    float: right;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 6px;
+    border: none;
+    margin-right: 4%;
+
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+    
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+  }
+  #border{
+    border-right: 2px solid black;
+    
+    
+    
+    
+    
+  }
+  .icon{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+    padding: 9px;
+    margin-left: 44%;
+    text-align: center;
+    
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+    
+    
+    
+  }
+  @media screen and (max-width: 480px) {
+    
+    .img_header{
+      width: 400px;
+      height: 300px;
+      margin-left: 20%;
+      float: none;
+    }
+    .desc{
+      text-align: center;
+      margin-left: 36%;
+      font-size: 30px;
+    }
+    .activity-title{
+      margin-left: 36%;
+      margin-bottom: 6%;
+    }
+    .activity{
+      margin-left: 55%;
+    }
+    .cards{
+      flex-direction: column;
+      margin-left: 23%;
+    }
+    .card1{
+      width: 300px;
+      height: 200px;
+    }
+    .img_card{
+      width: 100px;
+      height: 100px;
+    }
+    .card_head{
+      font-size: 20px;
+    }
+    .about-title{
+      margin-left: 36%;
+      margin-bottom: 6%;
+      margin-top: 5%;
+    }
+    .img_about{
+      float: none;
+      width: 350px;
+      height: 300px;
+      margin-left: 23%;
+    }
+    .about_description{
+      margin-left: 40%;
+      font-size: 25px;
+      text-align: center;
+    }
+    .invest{
+      margin-top: 3%;
+      margin-left: 36%;
+    }
+    .border1{
+      display: none;
+    }
+    .border2{
+      display: none;
+    }
+    .footer-title{
+      margin-left: 36%;
+      margin-bottom: 6%;
+      margin-top: 5%;
+    }
+    .cards_footer{
+      flex-direction: column;
+    }
+    .card_footer{
+      margin-left: 35%;
+    }
+    .img_card_footer{
+      
+    }
+    .card_head_footer{
+      margin-left: 50%;
+    }
+    .card2_footer{
+      flex-direction: column;
+    }
+    .tags{
+      color: white;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+    .border1{
+      display: none;
+    }
+    .border2{
+      display: none;
+    }
+  }
+  
